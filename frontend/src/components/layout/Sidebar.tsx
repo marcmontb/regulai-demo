@@ -51,13 +51,13 @@ export default function Sidebar() {
           <Image
             src="/quimidroga-logo.png"
             alt="Quimidroga"
-            width={collapsed ? 40 : 120}
-            height={collapsed ? 16 : 24}
-            className={cn("object-contain", collapsed ? "max-h-4 w-auto" : "max-h-5 w-auto")}
-            style={{ height: collapsed ? 16 : 20, width: "auto" }}
+            width={collapsed ? 40 : 140}
+            height={collapsed ? 20 : 32}
+            className={cn("object-contain", collapsed ? "w-auto" : "w-auto")}
+            style={{ height: collapsed ? 20 : 28, width: "auto" }}
           />
           {!collapsed && (
-            <span className="text-base font-bold tracking-tight bg-gradient-to-r from-teal-500 to-teal-600 bg-clip-text text-transparent -ml-0.5">
+            <span className="text-lg font-bold tracking-tight bg-gradient-to-r from-teal-500 to-teal-600 bg-clip-text text-transparent -ml-0.5">
               AI
             </span>
           )}
