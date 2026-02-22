@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useI18n } from "@/lib/i18n";
 import { Globe, Search } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
@@ -57,9 +58,15 @@ export default function Header() {
           )}
         </div>
 
-        <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white text-xs font-medium">
-          RA
-        </div>
+        <a href="https://www.quimidroga.com/" target="_blank" rel="noopener noreferrer" className="relative h-8 w-[120px] flex items-center justify-end opacity-90 hover:opacity-100 transition-opacity">
+          <Image
+            src="/quimidroga-logo.png"
+            alt="Quimidroga"
+            width={120}
+            height={32}
+            className="object-contain object-right h-8 w-auto"
+          />
+        </a>
       </div>
     </header>
   );

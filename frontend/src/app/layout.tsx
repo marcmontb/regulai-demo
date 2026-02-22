@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RegulAI — AI-Powered Regulatory Affairs",
+  title: "Quimidroga AI — AI-Powered Regulatory Affairs",
   description: "AI-powered Regulatory Affairs management platform for chemical distributors",
 };
 

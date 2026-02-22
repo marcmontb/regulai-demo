@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "RegulAI",
+    "name": "Quimidroga AI",
     "tagline": "Asuntos Regulatorios con IA"
   },
   "nav": {
@@ -16,7 +16,7 @@
     "feedRequirements": "Requisitos FEED"
   },
   "dashboard": {
-    "welcome": "Bienvenido a RegulAI",
+    "welcome": "Bienvenido a Quimidroga AI",
     "subtitle": "Plataforma de gestión de Asuntos Regulatorios con IA",
     "kpi": {
       "pendingHomologations": "Homologaciones Pendientes",

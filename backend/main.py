@@ -7,8 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from routers import homologation, questionnaires, flowcharts, reach, changes
 
 app = FastAPI(
-    title="RegulAI API",
-    description="Backend API for the RegulAI regulatory affairs demo platform",
+    title="Quimidroga AI API",
+    description="Backend API for the Quimidroga AI regulatory affairs demo platform",
     version="1.0.0",
 )
 
@@ -29,7 +29,7 @@ app.include_router(changes.router, prefix="/api/changes", tags=["Changes"])
 
 @app.get("/api/health")
 async def health():
-    return {"status": "ok", "service": "RegulAI API"}
+    return {"status": "ok", "service": "Quimidroga AI API"}
 
 
 @app.get("/api/dashboard")

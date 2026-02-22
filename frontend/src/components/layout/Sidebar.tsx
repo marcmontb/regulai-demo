@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
@@ -39,14 +40,30 @@ export default function Sidebar() {
         collapsed ? "w-[68px]" : "w-[260px]"
       )}
     >
-      <div className="flex items-center gap-3 px-5 h-16 border-b border-white/10 shrink-0">
-        <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center font-bold text-sm text-white shrink-0">
-          RA
+      <div className={cn(
+        "flex flex-col items-center border-b border-white/10 shrink-0 py-4",
+        collapsed ? "px-2" : "px-5"
+      )}>
+        <div className={cn(
+          "bg-white rounded-lg flex items-center justify-center gap-0",
+          collapsed ? "px-1.5 py-1" : "px-3 py-1.5"
+        )}>
+          <Image
+            src="/quimidroga-logo.png"
+            alt="Quimidroga"
+            width={collapsed ? 40 : 140}
+            height={collapsed ? 20 : 32}
+            className={cn("object-contain", collapsed ? "h-5 w-auto" : "h-7 w-auto")}
+          />
+          {!collapsed && (
+            <span className="text-lg font-bold tracking-tight bg-gradient-to-r from-teal-500 to-teal-600 bg-clip-text text-transparent -ml-0.5">
+              AI
+            </span>
+          )}
         </div>
         {!collapsed && (
-          <div className="animate-fade-in">
-            <div className="font-semibold text-base tracking-tight">RegulAI</div>
-            <div className="text-[10px] text-white/50 leading-none">{t("app.tagline")}</div>
+          <div className="animate-fade-in text-center mt-2">
+            <div className="text-[10px] text-white/40 leading-none">{t("app.tagline")}</div>
           </div>
         )}
       </div>

@@ -1,4 +1,4 @@
-# RegulAI — AI-Powered Regulatory Affairs Platform
+# Quimidroga AI — AI-Powered Regulatory Affairs Platform
 
 A demo platform showcasing AI-native capabilities for optimizing Regulatory Affairs (RA) processes in a chemical distribution company.
 
