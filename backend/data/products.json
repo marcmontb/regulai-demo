@@ -1,0 +1,19 @@
+{
+  "suppliers": [
+    { "id": "SUP001", "name": "ChemNova GmbH", "country": "Germany", "category": "Specialty Chemicals", "status": "approved", "lastAudit": "2025-11-15" },
+    { "id": "SUP002", "name": "Pacific Aromatics Ltd", "country": "Singapore", "category": "Essential Oils & Aromatics", "status": "approved", "lastAudit": "2025-09-22" },
+    { "id": "SUP003", "name": "EuroSynth S.A.", "country": "France", "category": "Synthetic Compounds", "status": "pending", "lastAudit": "2025-06-10" },
+    { "id": "SUP004", "name": "Atlantic Fragrances Inc", "country": "USA", "category": "Fragrance Ingredients", "status": "under_review", "lastAudit": "2025-12-01" },
+    { "id": "SUP005", "name": "Sakura Chemical Co.", "country": "Japan", "category": "Fine Chemicals", "status": "approved", "lastAudit": "2026-01-08" }
+  ],
+  "materials": [
+    { "id": "MAT001", "name": "Linalool", "cas": "78-70-6", "category": "Terpene Alcohol", "supplierId": "SUP001", "supplierName": "ChemNova GmbH", "status": "active" },
+    { "id": "MAT002", "name": "Limonene", "cas": "5989-27-5", "category": "Terpene", "supplierId": "SUP002", "supplierName": "Pacific Aromatics Ltd", "status": "active" },
+    { "id": "MAT003", "name": "Citral", "cas": "5392-40-5", "category": "Aldehyde", "supplierId": "SUP001", "supplierName": "ChemNova GmbH", "status": "pending" },
+    { "id": "MAT004", "name": "Vanillin", "cas": "121-33-5", "category": "Phenolic Aldehyde", "supplierId": "SUP003", "supplierName": "EuroSynth S.A.", "status": "active" },
+    { "id": "MAT005", "name": "Eugenol", "cas": "97-53-0", "category": "Phenylpropanoid", "supplierId": "SUP002", "supplierName": "Pacific Aromatics Ltd", "status": "under_review" },
+    { "id": "MAT006", "name": "Geraniol", "cas": "106-24-1", "category": "Terpene Alcohol", "supplierId": "SUP004", "supplierName": "Atlantic Fragrances Inc", "status": "active" },
+    { "id": "MAT007", "name": "Menthol", "cas": "2216-51-5", "category": "Cyclic Monoterpene", "supplierId": "SUP005", "supplierName": "Sakura Chemical Co.", "status": "active" },
+    { "id": "MAT008", "name": "Cinnamaldehyde", "cas": "104-55-2", "category": "Aldehyde", "supplierId": "SUP002", "supplierName": "Pacific Aromatics Ltd", "status": "pending" }
+  ]
+}
