@@ -58,13 +58,14 @@ export default function Header() {
           )}
         </div>
 
-        <a href="https://www.quimidroga.com/" target="_blank" rel="noopener noreferrer" className="relative h-8 w-[120px] flex items-center justify-end opacity-90 hover:opacity-100 transition-opacity">
+        <a href="https://www.quimidroga.com/" target="_blank" rel="noopener noreferrer" className="relative h-6 flex items-center justify-end opacity-90 hover:opacity-100 transition-opacity">
           <Image
             src="/quimidroga-logo.png"
             alt="Quimidroga"
-            width={120}
-            height={32}
-            className="object-contain object-right h-8 w-auto"
+            width={100}
+            height={20}
+            className="object-contain object-right"
+            style={{ height: 20, width: "auto" }}
           />
         </a>
       </div>
