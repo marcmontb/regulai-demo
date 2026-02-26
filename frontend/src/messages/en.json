@@ -4,6 +4,8 @@
     "tagline": "AI-Powered Regulatory Affairs"
   },
   "nav": {
+    "aiAssistant": "AI Assistant",
+    "togglePanel": "Toggle AI Panel",
     "dashboard": "Dashboard",
     "homologation": "Supplier Homologation",
     "questionnaires": "Client Questionnaires",
@@ -156,6 +158,20 @@
     "title": "Coming Soon",
     "description": "This module is currently in development and will be available in a future release.",
     "backToDashboard": "Back to Dashboard"
+  },
+  "ai": {
+    "landing": {
+      "greeting": "How can I help you today?",
+      "subtitle": "Ask about REACH compliance, supplier validation, regulatory changes, or navigate to any module.",
+      "placeholder": "Ask anything about regulatory affairs..."
+    }
+  },
+  "chat": {
+    "title": "AI Assistant",
+    "subtitle": "Ask me about REACH compliance, product specs, CLP classification, or supplier information.",
+    "placeholder": "Ask a question...",
+    "typing": "Thinking...",
+    "clearChat": "Clear chat"
   },
   "common": {
     "loading": "Loading...",

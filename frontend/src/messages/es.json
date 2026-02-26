@@ -4,6 +4,8 @@
     "tagline": "Asuntos Regulatorios con IA"
   },
   "nav": {
+    "aiAssistant": "Asistente IA",
+    "togglePanel": "Panel IA",
     "dashboard": "Panel Principal",
     "homologation": "Homologación Proveedores",
     "questionnaires": "Cuestionarios Clientes",
@@ -156,6 +158,20 @@
     "title": "Próximamente",
     "description": "Este módulo está actualmente en desarrollo y estará disponible en una versión futura.",
     "backToDashboard": "Volver al Panel Principal"
+  },
+  "ai": {
+    "landing": {
+      "greeting": "¿En qué puedo ayudarte hoy?",
+      "subtitle": "Consulta sobre cumplimiento REACH, validación de proveedores, cambios regulatorios, o navega a cualquier módulo.",
+      "placeholder": "Pregunta cualquier cosa sobre asuntos regulatorios..."
+    }
+  },
+  "chat": {
+    "title": "Asistente IA",
+    "subtitle": "Pregúntame sobre cumplimiento REACH, especificaciones de producto, clasificación CLP o información de proveedores.",
+    "placeholder": "Haz una pregunta...",
+    "typing": "Pensando...",
+    "clearChat": "Limpiar chat"
   },
   "common": {
     "loading": "Cargando...",
